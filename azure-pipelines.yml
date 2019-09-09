@@ -1,9 +1,6 @@
 trigger:
 - master
 
-pr: 
-- branch-for-pr
-
 pool:
   vmImage: 'vs2017-win2016'
   demands:
@@ -12,18 +9,6 @@ pool:
   - vstest
   - java
 
-schedules:
-- cron: "0 5 * * Mon-Sun"
-  displayName: 5:00 AM (UTC) daily build for master and feature branch
-  branches:
-    include:
-    - master
-    - branch-for-pr
-  pr:
-    branches:
-      include:
-      - branch-for-pr
-  always: true
       
 
 variables:
