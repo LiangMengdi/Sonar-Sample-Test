@@ -29,10 +29,10 @@ steps:
 - task: SonarCloudPrepare@1
   displayName: 'Prepare analysis on SonarCloud'
   inputs:
-    SonarCloud: SC
-    organization: 'sonarsource-bitbucket'
-    projectKey: 'sonarsource_sample-dotnet-project-azuredevops'
-    projectName: 'sample-dotnet-project-azuredevops'
+    SonarCloud: 'SonarCloud'
+    organization: 'mengdi0301'
+    scannerMode: 'MSBuild'
+    projectKey: 'mengdi0301'
 
 - task: VSBuild@1
   displayName: 'Build solution **\*.sln'
