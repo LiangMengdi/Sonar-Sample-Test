@@ -5,11 +5,6 @@ pool:
   vmImage: 'vs2017-win2016'
   demands:
   - msbuild
-  - visualstudio
-  - vstest
-  - java
-
-      
 
 variables:
   buildConfiguration: 'Release'
@@ -24,7 +19,7 @@ steps:
 - task: NuGetCommand@2
   displayName: 'NuGet restore'
   inputs:
-    restoreSolution: 'SomeConsoleApplication.sln'
+    restoreSolution: 'ConsoleApplication.sln'
 
 - task: SonarCloudPrepare@1
   displayName: 'Prepare analysis on SonarCloud'
