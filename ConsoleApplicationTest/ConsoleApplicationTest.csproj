@@ -6,8 +6,8 @@
     <ProjectGuid>{69A603A4-4241-4F3B-846C-E95307293CF0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SomeConsoleApplicationTest</RootNamespace>
-    <AssemblyName>SomeConsoleApplicationTest</AssemblyName>
+    <RootNamespace>ConsoleApplicationTest</RootNamespace>
+    <AssemblyName>ConsoleApplicationTest</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SomeConsoleApplication\SomeConsoleApplication.csproj">
+    <ProjectReference Include="..\ConsoleApplication\ConsoleApplication.csproj">
       <Project>{96fed58b-6b13-4b22-9d88-8ca270701ff5}</Project>
-      <Name>SomeConsoleApplication</Name>
+      <Name>ConsoleApplication</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
