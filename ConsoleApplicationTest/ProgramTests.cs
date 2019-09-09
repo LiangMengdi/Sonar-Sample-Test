@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SomeConsoleApplication;
+using ConsoleApplication;
 
-namespace SomeConsoleApplicationTest
+namespace ConsoleApplicationTest
 {
     [TestClass]
     public class ProgramTests
