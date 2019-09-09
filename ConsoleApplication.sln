@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeConsoleApplication", "SomeConsoleApplication\SomeConsoleApplication.csproj", "{96FED58B-6B13-4B22-9D88-8CA270701FF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\SomeConsoleApplication.csproj", "{96FED58B-6B13-4B22-9D88-8CA270701FF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeConsoleApplicationTest", "SomeConsoleApplicationTest\SomeConsoleApplicationTest.csproj", "{69A603A4-4241-4F3B-846C-E95307293CF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationTest", "ConsoleApplicationTest\SomeConsoleApplicationTest.csproj", "{69A603A4-4241-4F3B-846C-E95307293CF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
